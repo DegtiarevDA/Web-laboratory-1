@@ -1,0 +1,74 @@
+body {
+    background: lightgray;
+    color: black;
+    margin: 10px;
+    margin-top: 100px;
+    font-family: "Times New Roman", Helvetica, sans-serif;
+}
+
+.head h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.vertical h2 {
+    writing-mode: vertical-lr;
+    margin-left: 0px;
+}
+
+.section h2 {
+    text-align: left;
+    margin-top: -300px;
+    margin-left: 900px;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 300px;
+    padding-left: 20px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    background: linear-gradient(to right, lightgray, gray);
+}
+
+.menu {
+    background: #333333;
+    height: 75px;
+    margin-top: -450px;
+}
+
+.menu div {
+    float: left;
+    color: white;
+    width: 9%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.menu1 {
+    background: black;
+    width: 200%;
+}
+
+
+.chapters {
+    display: none;
+    background: white;
+    min-width: 200px;
+    box-shadow: 0px 0px 30px grey;
+}
+
+.chapters p {
+    color: black;
+    margin-left: -70px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menuAndChapter:hover {
+    background: #7f7f7f;
+}
+
+.menuAndChapter:hover .chapters {
+    display: block;
+}
